@@ -8,10 +8,10 @@ Config:
 Webserver document root is mounted with one NFS master mount point. /etc/fstab contains both entries for NFS master.
 
 #####
- cat /etc/fstab
- LABEL=cloudimg-rootfs	/	 ext4	defaults,discard	0 0
- 172.31.25.48:/data/stag /mnt/data/stag nfs     defaults        0       0
- #172.31.25.3:/data/stag /mnt/data/stag nfs     defaults        0       0
+cat /etc/fstab
+LABEL=cloudimg-rootfs	/	 ext4	defaults,discard	0 0
+172.31.25.48:/data/stag /mnt/data/stag nfs     defaults        0       0
+#172.31.25.3:/data/stag /mnt/data/stag nfs     defaults        0       0
 #####
 
 Scenario:
